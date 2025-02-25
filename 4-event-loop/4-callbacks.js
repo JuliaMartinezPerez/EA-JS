@@ -16,6 +16,9 @@ function processUserData(user) {
 }
 
 // Llamamos a la función asíncrona
-getUserData(1, processUserData);
+getUserData(1, processUserData); //"dona'm l'usuari 1 i quan el tinguis, processa'l amb processUserData"
+//Problema: no es poden fer callbacks infinites perquè es poden anar acumulant i es pot arribar a un callback hell
+//Callback hell: quan hi ha molts callbacks anidats i es fa difícil de llegir i mantenir (mirar exemple 5)
+//Alternatives: Promises (exemple 7)
 
 console.log("Fin");

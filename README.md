@@ -1,5 +1,8 @@
 # EA-JS
 
+## Referències usades en l'exercici
+Només s'ha utilitzat una eina: Copilot de GitHub
+
 ## Requisitos Previos
 
 Asegúrate de tener instalados los siguientes programas en tu sistema:
